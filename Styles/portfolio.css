@@ -165,3 +165,62 @@ nav .menu a{
   line-height: 30px;
 }
 
+#i_do{
+  padding-top: 130px;
+  border: 1px solid red;
+  max-width: 1600px;
+}
+
+#i_do .i_do_container
+{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+#i_do .i_do_box{
+  margin-top: 50px;
+  display: flex;
+  gap: 24px;
+}
+
+#i_do .i_do_heading{
+  text-align: center;
+}
+
+#i_do_heading h2{
+  font-size: 35px;
+  font-weight: bold;
+  /* padding-bottom: 30px; */
+}
+
+#i_do_heading p{
+  margin-top: 30px;
+}
+
+.i_do_box .i_do_card
+{
+  padding: 30px;
+  /* border: 1px solid red; */
+  max-width: 267px;
+  box-shadow: 0 6px 50px 0 #00000027 ;
+}
+
+.i_do_card img{
+  width: 44px;
+  margin-bottom: 30px;
+}
+
+.i_do_card h3{
+  font-size: 20px ;
+  font-weight: bold;
+  margin-bottom: 20px ;
+}
+
+.i_do_card p{
+ max-width: 201px;
+ font-size: 16px;
+ color: #757575;
+
+}
+
