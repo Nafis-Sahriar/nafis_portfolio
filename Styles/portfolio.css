@@ -11,5 +11,55 @@
 
 header
 {
-    background-color: #ffb885;
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    /* margin-top: 50px; */
+}
+
+.Logo h2{
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.color_orange{
+  color: orange;
+}
+
+nav{
+  width: 71%;
+  max-width: 1140px;
+  /* border dibo width bujhar jonno */
+  border: 1px solid red;
+  margin: 0px auto;
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .menu{
+  display: flex;
+  /* justify-content: space-between; */
+  list-style-type: none;
+  gap: 51px;
+  align-items: center;
+
+}
+
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+}
+
+.btn{
+
+  background-color: #FD6E0A;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 5%;
+  color: #FFF8F3;
+  font-size: 20px;
+  font-weight: bold;
+
 }
